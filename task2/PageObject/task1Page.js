@@ -11,7 +11,7 @@ class TodoPage {
         await this.driver.get(this.url);
     }
 
-    // Заголовок
+    // Проверка заголовка
     async getTitle() {
         return await this.driver.getTitle();
     }
@@ -35,7 +35,7 @@ class TodoPage {
         await checkbox.click();
     }
 
-    // Новый элемент
+    // Новый элемент списка
     async addNewItem(text) {
         const inputField = await this.driver.findElement(By.id('sampletodotext'));
         await inputField.sendKeys(text);
