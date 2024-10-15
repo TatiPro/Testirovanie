@@ -1,0 +1,23 @@
+{
+  "name": "testirovanie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "task.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TatiPro/Testirovanie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TatiPro/Testirovanie/issues"
+  },
+  "homepage": "https://github.com/TatiPro/Testirovanie#readme",
+  "keywords": [],
+  "dependencies": {
+    "selenium-webdriver": "^4.25.0"
+  }
+}
